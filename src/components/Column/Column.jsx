@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import Card from "../Card";
 import "./column.css";
-import { GrAdd } from "react-icons/gr";
+// import { GrAdd } from "react-icons/gr";
 import { LuMoreHorizontal } from "react-icons/lu";
 import UserIcon from "../UserIcon";
 import { getPriorityIcon, getStatusIcon } from "../../utils/helper";
@@ -37,7 +37,7 @@ function Column({ tickets, grouping, groupBy, userIdToData }) {
           </div>
         </div>
         <div className="column-header-right-container">
-          <GrAdd color="#797d84" size={12} />
+          {/* <GrAdd color="#797d84" size={12} /> */}
           <LuMoreHorizontal color="#797d84" size={14} />
         </div>
       </div>
