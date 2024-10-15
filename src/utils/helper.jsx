@@ -29,7 +29,7 @@ export const getStatusIcon = (status) => {
     case "Backlog":
       return <TbCircleDashed color="#686c6e" size={18} />;
     case "Todo":
-      return <FaRegCircle color="##686c6e" size={18} />;
+      return <FaRegCircle color="#686c6e" size={18} />;
     case "In progress":
       return <RiProgress8Line color="#deae10" size={20} />;
     case "Done":
